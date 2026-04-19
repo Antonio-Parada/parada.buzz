@@ -82,6 +82,17 @@ export const generateFeed = (openTerminal: (cmd: string, res: string) => void) =
       comments: [{ author: 'Architect', body: 'Building through the storm.' }]
     },
     {
+      id: 'p24_camera_ny',
+      author: 'Parada',
+      timestamp: 'Summer 2024',
+      content: (
+        <div style={{borderLeft: '2px solid #666', paddingLeft: '15px'}}>
+          <p>I sold my camera in New York today. A piece of my history for the currency to build my future. It was the hardest trade I’ve ever made, but you can’t capture the light if you’re trapped in the frame. Moving from the lens to the kernel. Pixels is no longer just a gallery; it’s an architecture.</p>
+        </div>
+      ),
+      comments: []
+    },
+    {
       id: 'p23_homeless',
       author: 'Parada',
       timestamp: 'December 2023',
